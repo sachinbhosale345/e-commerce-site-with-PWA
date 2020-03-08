@@ -1,0 +1,23 @@
+{
+  "name": "white-label",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "(cd NodeJs && npm start)",
+    "installReactModule": "(cd ReactJs && npm install)",
+    "buildReact": "(cd ReactJs && npm run build)",
+    "installNodeModule": "(cd NodeJs && npm install)"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunillohar21/whitelabel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunillohar21/whitelabel/issues"
+  },
+  "homepage": "https://github.com/sunillohar21/whitelabel#readme"
+}
