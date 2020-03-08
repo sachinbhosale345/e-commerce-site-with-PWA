@@ -1,0 +1,103 @@
+@import "./../../common/scss/mixins.scss";
+header {
+  .main-navbar {
+    background: #f8f8f8;
+  }
+  .left-side {
+    float: left;
+  }
+  .right-side {
+    float: right;
+  }
+}
+/*Style start for Top Navigation Section*/
+.top-navbar {
+  .left-side {
+    li {
+      height: 20px;
+      font-size: 12px;
+      text-align: left;
+      color: #777777;
+      line-height: 20px;
+      span {
+        display: block;
+      }
+      @include xl {
+        height: 40px;
+        line-height: 40px;
+        span {
+          display: inline;
+        }
+      }
+    }
+  }
+  .right-side {
+    li {
+      height: 20px;
+      position: relative;
+      display: inline;
+      padding: 0 13px;
+      &:after {
+        content: "";
+        width: 1px;
+        height: 20px;
+        position: absolute;
+        top: 3px;
+        right: 0;
+        background: #e7e7e7;
+      }
+      &:last-child {
+        padding-right: 0;
+        &:after {
+          display: none;
+        }
+      }
+      a {
+        font-size: 12px;
+        text-align: left;
+        color: #777777;
+        line-height: 20px;
+        height: 20px;
+        text-transform: uppercase;
+        @include xl {
+          line-height: 40px;
+        }
+      }
+      @include xl {
+        padding: 0 23px;
+        height: 40px;
+      }
+    }
+  }
+}
+/*End start for Top Navigation Section*/
+
+/*Style start for Main Navigation Section*/
+.main-navbar {
+  .navbar {
+    padding: 0;
+    .nav-link {
+      padding: 23px;
+      text-transform: uppercase;
+    }
+
+    /*Start Style for Main Navigation RightSide icons*/
+    .main-leftside-actions {
+      position: absolute;
+      right: 0;
+      li {
+        display: inline;
+        a {
+          border-left: solid 1px #ccc;
+          padding: 16px 26px;
+          img {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
+    /*End Style for Main Navigation RightSide icons*/
+  }
+}
+/*End start for Main Navigation Section*/

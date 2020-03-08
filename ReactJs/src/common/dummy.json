@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "productName": "Pen",
+    "images": [
+      {
+        "id": "example",
+        "src": "https://picsum.photos/400/600"
+      },
+      {
+        "name": "example",
+        "src": "https://picsum.photos/400/600"
+      }
+    ],
+    "cost": "Rs.150",
+    "category": "Stationary",
+    "description": "This site uses cookies to personalize ads. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies."
+  },
+  {
+    "id": 2,
+    "productName": "Pencil",
+    "images": [
+      {
+        "id": "example",
+        "src": "https://picsum.photos/400/600"
+      },
+      {
+        "name": "example",
+        "src": "https://picsum.photos/400/600"
+      }
+    ],
+    "cost": "Rs.150",
+    "category": "Stationary",
+    "description": "This site uses cookies to personalize ads. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies."
+  }
+]
